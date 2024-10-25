@@ -10,3 +10,14 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+
+:root.theme-dark {
+  /* Дублируем переменные для тёмной темы */
+  --bg-image: url(../images/cover-image-dark.png);
+}
+
+/* Остальные стили */
+
+.theme-dark .page {
+  background-image: var(--bg-image);
+}

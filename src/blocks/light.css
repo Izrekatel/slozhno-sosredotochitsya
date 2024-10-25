@@ -10,3 +10,24 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+
+:root.theme-light {
+  /* Переменные светлой темы */
+  --bg-image: url(../images/cover-image-light.png);
+}
+
+/* Остальные стили */
+
+@media (prefers-color-scheme: light) {
+
+  :root {
+    /* Дублируем переменные светлой темы */
+    --bg-image: url(../images/cover-image-light.png);
+  }
+}
+
+/* Остальные стили */
+
+.theme-light .page {
+  background-image: var(--bg-image);
+}
