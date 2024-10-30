@@ -19,9 +19,7 @@
   </head>
   <body class="page">
     <header class="header decorated-zone">
-      <div class="header__lamp">
-        <div aria-disabled="true">REC</div>
-      </div>
+      <div class="header__lamp" aria-disabled="true"></div>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -213,46 +211,58 @@
       </section>
       <section class="pictures__section" id="pictures">
         <h3 class="item__title title-decor">А можно в картинках?</h3>
-        <picture>
-          <img
-            loading="lazy"
-            class="content__picture"
-            src="./images/sunset.png"
-            alt="Вид с моря на закат солнца за горы. Облака над горами и чайки."
-          />
-        </picture>
-        <picture>
-          <img
-            loading="lazy"
-            class="content__picture"
-            src="./images/ice-cream.png"
-            alt="Полная креманка мороженного с цветной посыпкой, дополненного фркутами и ягодами, коктельным зонтиком и двумя вафлями-трубочками."
-          />
-        </picture>
-        <picture>
-          <img
-            loading="lazy"
-            class="content__picture"
-            src="./images/tape.png"
-            alt="Аудиокассета и окно музыкального плеера."
-          />
-        </picture>
-        <picture>
-          <img
-            loading="lazy"
-            class="content__picture"
-            src="./images/books.png"
-            alt="Стопка обучающих и развивающих книг на которых стоит чашка на блюдце."
-          />
-        </picture>
-        <picture>
-          <img
-            loading="lazy"
-            class="content__picture"
-            src="./images/street.png"
-            alt="вид вдоль улицы с малоэтажными домами, тротуарами и пешеходным переходом."
-          />
-        </picture>
+        <ul class="picture-list">
+          <li class="picture-list__item picture-sunset">
+            <picture>
+              <img
+                loading="lazy"
+                class="content__picture"
+                src="./images/sunset.png"
+                alt="Вид с моря на закат солнца за горы. Облака над горами и чайки."
+              />
+            </picture>
+          </li>
+          <li class="picture-list__item picture-ice-cream">
+            <picture>
+              <img
+                loading="lazy"
+                class="content__picture"
+                src="./images/ice-cream.png"
+                alt="Полная креманка мороженного с цветной посыпкой, дополненного фркутами и ягодами, коктельным зонтиком и двумя вафлями-трубочками."
+              />
+            </picture>
+          </li>
+          <li class="picture-list__item picture-tape">
+            <picture>
+              <img
+                loading="lazy"
+                class="content__picture"
+                src="./images/tape.png"
+                alt="Аудиокассета и окно музыкального плеера."
+              />
+            </picture>
+          </li>
+          <li class="picture-list__item picture-books">
+            <picture>
+              <img
+                loading="lazy"
+                class="content__picture"
+                src="./images/books.png"
+                alt="Стопка обучающих и развивающих книг на которых стоит чашка на блюдце."
+              />
+            </picture>
+          </li>
+          <li class="picture-list__item picture-street">
+            <picture>
+              <img
+                loading="lazy"
+                class="content__picture"
+                src="./images/street.png"
+                alt="вид вдоль улицы с малоэтажными домами, тротуарами и пешеходным переходом."
+              />
+            </picture>
+          </li>
+        </ul>
       </section>
     </main>
     <footer class="footer decorated-zone">
